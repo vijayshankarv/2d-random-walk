@@ -1,4 +1,6 @@
+//Include the typedefs for the boost random number library
 #include "random.h"
+
 // Defines the walker class
 class walker{
 	private: 
@@ -8,8 +10,7 @@ class walker{
 	public:
 		walker();
 		walker(double, double);
- 		~walker();
- 		
+ 		~walker(); 		
 		void coverTexas(B_U_GEN &gen);
 		void coverTexas(U_GEN &gen);
 		void startWalk();
