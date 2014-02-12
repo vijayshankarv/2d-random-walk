@@ -9,7 +9,7 @@ main.o: main.cpp
 	$(CC) $(CFLAGS) -c main.cpp $(STDC++)
 
 walker.o: walker.cpp walker.h random.h
-	$(CC) $(CFLAGS) -c field.cpp $(STDC++)
+	$(CC) $(CFLAGS) -c walker.cpp $(STDC++)
 
 clean:
 	rm -rf *.o

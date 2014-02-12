@@ -1,16 +1,19 @@
+#include "random.h"
 // Defines the walker class
 class walker{
 	private: 
 		double x, y;
-		const double range = 4.0;
+		double range;
 		double angle;
 	public:
 		walker();
 		walker(double, double);
- 		void Initialize();
-		~walker();
-		void coverTexas();
-		void walk();
+ 		~walker();
+ 		
+		void coverTexas(B_U_GEN &gen);
+		void coverTexas(U_GEN &gen);
+		void startWalk();
 		double getAngle();
 
 };
+
