@@ -8,7 +8,7 @@ class walker{
 		double range;
 		double angle;
 	public:
-		walker();
+		walker(double range);
 		walker(double, double);
  		~walker(); 		
 		void coverTexas(B_U_GEN &gen);
